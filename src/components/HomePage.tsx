@@ -15,7 +15,7 @@ export default function HomePage() {
         </div> {/* Spacer for desktop */}
         <div className="w-full md:w-1/2 text-center md:text-left bg-white/80 md:bg-transparent p-4 md:p-0 rounded-lg md:rounded-none">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 primary-text">
-            Happy Birthday, Nooroh! 💖
+            Happy Birthday, Noorou-l-ayni! 💖
           </h1>
           <p className="text-lg md:text-xl leading-relaxed mb-8 accent-text">
             To the one who saw and soothed my lonely heart when the world overlooked it,
