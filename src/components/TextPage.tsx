@@ -5,11 +5,25 @@ export default function TextPage() {
   const navigate = useNavigate();
 
   const romanticTexts = [
-    "In your eyes, I found the stars that light up my darkest nights. Happy Birthday, my love.",
-    "Every moment with you is a treasure, every smile a gift. You are my everything.",
-    "To the woman who makes my heart skip a beat, thank you for being you. Forever yours.",
-    "Your love is the melody that plays in my soul. Wishing you a day as beautiful as you are.",
-    "In this journey of life, you are my favorite destination. Happy Birthday, Nooroh!"
+    `i was told dreams are like stars
+    i was told they might never be touched
+    i was told just to follow it path
+    i was told my destiny lies in it heart`,
+
+    `so i stared at the sky all night
+    so i walked through the blazing sun
+    that it may lead me through the night
+    or perhaps guide my path in the day`,
+
+    `in your eyes are the stars
+    the ones i longed for all these years
+    in your heart is my path
+    the ones i should walk through to be alright`,
+
+    `glorious is the day those stars were born
+    blessed is the day it found my lonely home
+    glory be the day it would be my own
+    happy birthday to my own portion of this world`
   ];
 
   return (
