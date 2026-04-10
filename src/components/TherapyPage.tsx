@@ -12,7 +12,7 @@ export default function TherapyPage() {
           <p className="text-sm accent-text">For Nooroh - Patient of Love</p>
         </div>
         <div className="border-t-2 border-b-2 py-4 mb-4 secondary-border">
-          <h2 className="text-xl font-semibold mb-2 primary-text">Daily Doses of Love:</h2>
+          <h2 className="text-xl font-semibold mb-2 primary-text">Daily Doses of Love. Never Miss a Day:</h2>
           <ul className="list-disc list-inside space-y-2 text-lg accent-text">
             <li>Take one deep breath of fresh air every morning - inhale positivity, exhale worries.</li>
             <li>Rest your heart in peaceful moments - allow love to heal.</li>
