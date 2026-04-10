@@ -19,6 +19,7 @@ export default function TherapyPage() {
             <li>Sleep soundly under the stars of dreams - recharge your soul.</li>
             <li>Nourish your spirit with kind thoughts - feed the love within.</li>
             <li>Repeat as needed: "I am loved, I am cherished."</li>
+            <li>Never let anyone under your skin, rage will reduce it glow.</li>
           </ul>
         </div>
         <div className="text-center">
