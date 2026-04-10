@@ -19,7 +19,7 @@ export default function PlaylistPage() {
       <div className="max-w-2xl w-full bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl p-8 text-center">
         <h1 className="text-4xl font-bold mb-8 primary-text">Nasheed Playlist 🎵</h1>
         <p className="text-lg mb-6 accent-text">
-          Let these soulful melodies fill your heart with peace and tranquility.
+          Take a dose of these whenever your mind needs a break.
         </p>
         <div className="space-y-4">
           {nasheeds.map((nasheed, index) => (
