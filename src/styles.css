@@ -1,0 +1,100 @@
+/* Component styles using CSS variables */
+
+.home-bg {
+  background-image: url(/bg_1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: var(--neutral-gray);
+}
+
+.video-bg {
+  background-image: url(/bg_2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: var(--neutral-gray);
+}
+
+.text-bg {
+  background-image: url(/bg_3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: var(--neutral-gray);
+}
+
+.therapy-bg {
+  background-image: url(/bg_4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: var(--neutral-gray);
+}
+
+.playlist-bg {
+  background-image: url(/bg_1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: var(--neutral-gray);
+}
+
+.primary-text {
+  color: var(--primary-blue);
+}
+
+.accent-text {
+  color: var(--accent-pink);
+}
+
+.secondary-text {
+  color: var(--secondary-purple);
+}
+
+.secondary-bg {
+  background-color: var(--secondary-purple);
+}
+
+.primary-border {
+  border-color: var(--primary-blue);
+}
+
+.secondary-border {
+  border-color: var(--secondary-purple);
+}
+
+.video-max-height {
+  max-height: 80vh;
+}
+
+.bg-girlfriend {
+  background-image: url(/placeholder-girlfriend.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.player-bg {
+  background-image: url(/bg_1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.player-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.player-bg>* {
+  position: relative;
+  z-index: 2;
+}
