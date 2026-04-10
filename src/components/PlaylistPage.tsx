@@ -5,9 +5,6 @@ export default function PlaylistPage() {
   const navigate = useNavigate();
 
   const nasheeds = [
-    { title: "Assalamu Alayka", src: "/Assalamu-Alayka.mp3" },
-    { title: "Allah Nasheed - Fadhil Omar", src: "/Fadhil-Omar-AllahNasheed.mp3" },
-    { title: "Insha Allah - Maher Zain", src: "/Maherzainy-and-covers-Insha-Allah.mp3" },
     { title: "Beautiful Nasheed", src: "/abdul2025-nasheed-432919.mp3" },
     { title: "Gharibun", src: "/gharibun.mp3" },
     { title: "Ramadan Nasheed - Haitham", src: "/haitham_ramadan.mp3" },

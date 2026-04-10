@@ -19,7 +19,7 @@ export default function HomePage() {
           </h1>
           <p className="text-lg md:text-xl leading-relaxed mb-8 accent-text">
             To the one who saw and soothed my lonely heart when the world overlooked it,
-            these are few doses of my gratitude. To be taken accordingly to doctor Suleym's
+            these are few doses of my gratitude. To be taken according to doctor Suleym's
             😇 prescription.
           </p>
           <button
