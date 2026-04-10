@@ -5,20 +5,19 @@ export default function VideoPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center video-bg">
+    <div className="relative min-h-screen video-bg">
       <video
         controls
-        autoPlay
-        className="w-full h-full object-cover video-max-height"
+        className="video-fullscreen object-cover"
       >
-        <source src="/birthday-message.mp4" type="video/mp4" /> {/* Replace with actual video */}
+        <source src="/birthday-message.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <button
         onClick={() => navigate('/text')}
-        className="mt-4 px-6 py-3 rounded-full text-white font-semibold shadow-lg hover:shadow-xl transition-shadow secondary-bg"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 px-6 py-3 rounded-full text-white font-semibold shadow-lg hover:shadow-xl transition-shadow secondary-bg z-10"
       >
-        Next: Romantic Words
+        Next: Heart Words
       </button>
     </div>
   );

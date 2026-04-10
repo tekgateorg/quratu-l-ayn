@@ -29,7 +29,7 @@ export default function TextPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 text-bg">
       <div className="max-w-2xl w-full bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl p-8 text-center">
-        <h1 className="text-4xl font-bold mb-8 primary-text">Romantic Words for You 💕</h1>
+        <h1 className="text-4xl font-bold mb-8 primary-text">Heart Words for You 💕</h1>
         <div className="space-y-6">
           {romanticTexts.map((text, index) => (
             <p key={index} className="text-lg leading-relaxed italic accent-text">
