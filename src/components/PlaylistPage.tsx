@@ -5,11 +5,16 @@ export default function PlaylistPage() {
   const navigate = useNavigate();
 
   const nasheeds = [
-    { title: "Ya Nabi Salam Alayka", src: "/nasheed1.mp3" },
-    { title: "The Beauty of Existence", src: "/nasheed2.mp3" },
-    { title: "Allahumma Salli Ala Muhammad", src: "/nasheed3.mp3" },
-    { title: "Peace Be Upon You", src: "/nasheed4.mp3" },
-    { title: "Islamic Nasheed Collection", src: "/nasheed5.mp3" }
+    { title: "Assalamu Alayka", src: "/Assalamu-Alayka.mp3" },
+    { title: "Allah Nasheed - Fadhil Omar", src: "/Fadhil-Omar-AllahNasheed.mp3" },
+    { title: "Insha Allah - Maher Zain", src: "/Maherzainy-and-covers-Insha-Allah.mp3" },
+    { title: "Beautiful Nasheed", src: "/abdul2025-nasheed-432919.mp3" },
+    { title: "Gharibun", src: "/gharibun.mp3" },
+    { title: "Ramadan Nasheed - Haitham", src: "/haitham_ramadan.mp3" },
+    { title: "Muhammed Muqit", src: "/muhammed_muqit.mp3" },
+    { title: "Qasidah Istighfar", src: "/qasidah istighfar.mp3" },
+    { title: "Sallah Alaykallah", src: "/sallahalaykallah.mp3" },
+    { title: "Ya Saddiqi - Friendship", src: "/ya saddiqi_friendship.mp3" }
   ];
 
   return (

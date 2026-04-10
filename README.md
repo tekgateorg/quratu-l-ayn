@@ -29,7 +29,7 @@ Edit the CSS variables in `src/index.css` to change colors easily:
 - Replace `/placeholder-girlfriend.jpg` in `public/` with Nooroh's actual photo
 - Replace `/birthday-message.mp4` in `public/` with your video message
 - Update romantic texts in `src/components/TextPage.tsx`
-- Add Islamic nasheed audio files as `nasheed1.mp3`, `nasheed2.mp3`, etc. in `public/` (the playlist will play them directly in the app)
+- The Islamic nasheed MP3 files are already in `public/` and matched in the playlist
 
 ## Getting Started
 
