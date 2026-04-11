@@ -1,8 +1,10 @@
 import { useNavigate } from 'react-router-dom';
+import { useRef } from 'react';
 import '../styles.css';
 
 export default function PlaylistPage() {
   const navigate = useNavigate();
+  const audioRefs = useRef<HTMLAudioElement[]>([]);
 
   const nasheeds = [
     { title: "Beautiful Nasheed", src: "/abdul2025-nasheed-432919.mp3" },
@@ -13,6 +15,14 @@ export default function PlaylistPage() {
     { title: "Sallah Alaykallah", src: "/sallahalaykallah.mp3" },
     { title: "Ya Saddiqi - Friendship", src: "/ya saddiqi_friendship.mp3" }
   ];
+
+  const handlePlay = (activeIndex: number) => {
+    audioRefs.current.forEach((audio, index) => {
+      if (audio && index !== activeIndex) {
+        audio.pause();
+      }
+    });
+  };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 playlist-bg">
@@ -25,7 +35,16 @@ export default function PlaylistPage() {
           {nasheeds.map((nasheed, index) => (
             <div key={index} className="p-4 player-bg rounded-lg shadow-md">
               <h3 className="text-lg font-semibold mb-2 secondary-text">{nasheed.title}</h3>
-              <audio controls className="w-full">
+              <audio
+                controls
+                className="w-full"
+                ref={(element) => {
+                  if (element) {
+                    audioRefs.current[index] = element;
+                  }
+                }}
+                onPlay={() => handlePlay(index)}
+              >
                 <source src={nasheed.src} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
