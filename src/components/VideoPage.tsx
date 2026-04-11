@@ -8,9 +8,9 @@ export default function VideoPage() {
     <div className="relative min-h-screen video-bg">
       <video
         controls
-        className="video-fullscreen object-cover"
+        className="video-fullscreen object-contain"
       >
-        <source src="/birthday-message.mp4" type="video/mp4" />
+        <source src="/birthday_message.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <button
